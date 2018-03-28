@@ -2,13 +2,11 @@
 	margin: 0;
 	padding: 0;
 }
-
 .head {
 	background-color: #00aeff;
 	display: flex;
 	justify-content: space-around;
 }
-
 .head-content-item {
 	width: 65%;
 	display: flex;
@@ -19,9 +17,7 @@
 	width: 414px;
 	height: 86px;
 	margin: 50px 0;
-
 }
-
 .dark-blue {
 	background-color: #009bdd;
 }
@@ -29,19 +25,21 @@
 	background-color: #36c3ff;
 }
 .content {
-	padding: 18px;
+	padding: 18px 0px 18px 18px;
+	width: 70%;
 }
 .main-content {
 	display: flex;
-    justify-content: space-around;
+	justify-content: center;
 }
 .main-conteiner {
-	width: 65%;
+	width: 70%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 }
 .aside-container {
 	display: flex;
+	width: 23%;
 	background-color: #ff5607;
 	flex-wrap: wrap;
 	flex-direction:  column;
@@ -49,24 +47,39 @@
 }
 .aside-content {
 	height: 49px;
-	width: 100%;
+	width: 78%;
 	background-color: #e84900;
 	display:  flex;
 	margin: 15px 0;
 }
+.aside-content:first-child {
+	margin: 25px 0px 15px 0px;
+}
+.content-top {
+	display: flex;
+	justify-content: space-between;
+}
 .content-img {
 	background-color: #ffbd00;
-	width:  409px;
+	width:  45%;
 	height:  288px;
+}
+.content-width {
+	width: 45%;
 }
 .tittle {
 	height: 42px;
 	background-color: #9d9d9d;
 }
+.first-regular {
+	margin: 0;
+	height: 29px;
+	background-color: #cecece;
+}
 .regular {
 	height: 29px;
 	background-color: #cecece;
-	margin: 23px 0;
+	margin: 20px 0;
 }
 .footer-blok {
 	background-color: #00d169;
@@ -76,7 +89,7 @@
 }
 .footer-container {
 	background-color: #02b15a;
-	margin: 0 5px;
+	margin: 0 7px;
 	padding: 10px 30px;
 }
 
