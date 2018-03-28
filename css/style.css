@@ -4,19 +4,19 @@
 }
 .head {
 	background-color: #00aeff;
-	display: flex;
-	justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 .head-content-item {
 	width: 65%;
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .head-content {
 	width: 414px;
-	height: 86px;
-	margin: 50px 0;
+    height: 86px;
+    margin: 50px 0;
 }
 .dark-blue {
 	background-color: #009bdd;
@@ -100,11 +100,19 @@
 	margin: 20px 0;
 }
 
-@media screen and (max-width: 1240px;) {
+@media only screen and (max-width: 1240px) {
 	.head-content-item {
     	width: 100%;
 	}
 	.head-content {
-    width: 100%;
-    margin: 50px 40px;
+	    width: 100%;
+	    margin: 50px 40px;
+	}
+	.main-conteiner {
+		width: 100%;
+		justify-content: space-between;
+	}
+	.content {
+    	padding: 18px;
+	}
 }
