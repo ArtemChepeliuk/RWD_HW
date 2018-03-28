@@ -99,3 +99,12 @@
 	height: 36px;
 	margin: 20px 0;
 }
+
+@media screen and (max-width: 1240px;) {
+	.head-content-item {
+    	width: 100%;
+	}
+	.head-content {
+    width: 100%;
+    margin: 50px 40px;
+}
