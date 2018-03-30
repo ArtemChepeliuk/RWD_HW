@@ -100,7 +100,7 @@
 	margin: 20px 0;
 }
 
-@media only screen and (max-width: 1240px) {
+@media screen and (max-width: 1240px) {
 	.head-content-item {
     	width: 100%;
 	}
@@ -115,4 +115,25 @@
 	.content {
     	padding: 18px;
 	}
+	.aside-container {
+    	width: 29%
+	}
 }
+
+@media screen and (max-width: 768px) {
+	.footer-container {
+    	padding: 10px 16px;
+	}
+	.head-content-item {
+    flex-wrap: wrap;
+	}
+	
+}
+
+@media screen and (max-width: 375px) {
+	.hide {
+		display: none;
+	}
+	
+}
+
