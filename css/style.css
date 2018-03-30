@@ -4,8 +4,8 @@
 }
 .head {
 	background-color: #00aeff;
-    display: flex;
-    justify-content: space-around;
+	display: flex;
+	justify-content: space-around;
 }
 .head-content-item {
 	width: 65%;
@@ -61,7 +61,7 @@
 }
 .content-img {
 	background-color: #ffbd00;
-	width:  45%;
+	width:  50%;
 	height:  288px;
 }
 .content-width {
@@ -121,19 +121,76 @@
 }
 
 @media screen and (max-width: 768px) {
-	.footer-container {
-    	padding: 10px 16px;
+	.footer-container-text {
+	    max-width: 168px;
+	    margin: 20px 5px;
 	}
-	.head-content-item {
-    flex-wrap: wrap;
+	.footer-container {
+	    margin: 0 3px;
+	    padding: 10px 0px;
 	}
 	
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
 	.hide {
 		display: none;
 	}
-	
+	.head-content-item {
+    	flex-wrap: wrap;
+    	padding: 16px 0;
+ }
+
+	.head-content {
+	    margin: 10px 25px;
+	    height: 49px;
+	}
+	.footer-container {
+    	width: 100%;
+    	margin: 5px 0px;
+    	padding: 10px;
+	}
+	.footer-container-text {
+   		min-width: 60%;
+   		margin: 7px 3px;
+    	padding: 0px 0px;
+	}
+	.footer-blok {
+    	flex-wrap: wrap;
+    	padding: 15px;
+    }
+    .main-conteiner {
+    	display: block;
+    }
+    .aside-container {
+    	width: 100%;
+    	flex-direction: row;
+    	flex-wrap: nowrap;
+    }
+    .aside-content:first-child {
+    	margin: 15px 10px;
+    }
+    .aside-content {
+    	margin: 15px 10px;
+    }
+    .content {
+    	padding: 0;
+    }
+    .content-img {
+    width: 100%;
+	}
+	.content-top {
+    flex-direction: column;
+	}
+	.content-width {
+    width: 90%;
+    margin: 0 auto;
+	}
+	.mobile {
+	width: 90%;
+    margin: 0 auto;
+	}
+	.tittle {
+    margin-top: 15px;
 }
 
